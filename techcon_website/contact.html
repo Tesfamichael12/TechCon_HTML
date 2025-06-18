@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <style>
+      iframe {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        <p>
+          Follow us:
+          <a href="https://twitter.com/" target="_blank">Twitter</a> |
+          <a href="https://facebook.com/" target="_blank">Facebook</a> |
+          <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+        <h3>Venue Location</h3>
+        <iframe
+          src="https://www.google.com/maps?q=New+York+City+Center&output=embed"
+          allowfullscreen
+          title="TechCon Venue Location"
+        ></iframe>
+      </section>
+      <section>
+        <h2>Contact Us Form</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <br />
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 TechCon. All rights reserved. Copyright.</p>
+    </footer>
+  </body>
+</html>
